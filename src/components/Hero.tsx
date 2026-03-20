@@ -3,10 +3,13 @@ import { IHeroAPI } from '../data/data'
 import Clips from './utils/Clips'
 import SocialLink from './utils/SocialLink'
 
+
 const Hero: React.FC<IHeroAPI> = ({ title, subtitle, btntext, img, sociallinks, videos }) => {
     return (
         <>
+            
             <div className='relative h-auto w-auto flex flex-col '>
+                
                 <div className='bg-theme clip-path h-[85vh] lg:h-[75vh] md:h-[65vh] sm:h-[55vh]
         w-auto absolute top-0 left-0 right-0 opacity-100 z-10'></div>
                 <div className='relative opacity-100 z-20 grid items-center nike-container justify-items-center'>
@@ -26,16 +29,20 @@ const Hero: React.FC<IHeroAPI> = ({ title, subtitle, btntext, img, sociallinks, 
                                         imgsrc={val.imgsrc}
                                         clip={val.clip}
                                     />
+                                    
                                 ))}
+                            
                         </div>
                         <div className='grid items-center absolute top-[33vh] lg:top-[27vh]
                         right-0 gap-3'>
                             {sociallinks?.map((val, i) => (
                                 <SocialLink 
                                     key={i}
+                                    
                                     icon={val.icon}
                                 />      
                             ))}
+                            
                         </div>
                     </div>
                     <div className='flex items-center'>
@@ -44,12 +51,17 @@ const Hero: React.FC<IHeroAPI> = ({ title, subtitle, btntext, img, sociallinks, 
                             xsm:h-[19vh] transitions-theme -rotate-[25deg] hover:rotate-0
                             cursor-pointer object-fill '
                         />
+                        
                     </div>
                 </div>
+                
             </div>
+            
         </>
     )
+    
 }
+
 
 export default Hero
 
