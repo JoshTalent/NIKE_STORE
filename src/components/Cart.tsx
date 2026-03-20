@@ -6,11 +6,13 @@ import CartEmpty from './cart/CartEmpty'
 import CartItem from './cart/CartItem'
 
 const Cart = () => {
+  
   const dispatch = useAppDispatch()
   const ifCartState = useAppSelector(selectCartState)
   const cartItems = useAppSelector(selectCartItems)
   const totalPrice = useAppSelector(selectGetTotalPrice)
   const quantityItems = useAppSelector(selectGetTotalQuantity)
+  
 
   useEffect(()=>{
     dispatch(setGetTotals())
@@ -25,8 +27,10 @@ const Cart = () => {
   const onClearCartItem = () => {
     dispatch(setClearCartItems())
   }
+  
 
   return (
+    
     <>
       <div className={`fixed top-0 left-0 right-0 bottom-0 blur-effect-theme duration-500
         w-full h-screen opacity-100 z-[250] ${ifCartState ?
@@ -43,6 +47,7 @@ const Cart = () => {
                 <CartItem key={i} {...item} />
               ))}
               </div>
+            
 
                 <div className='fixed bottom-0 bg-white w-full px-6 py-2 grid items-center'>
                   <div className='flex items-center justify-between'>
@@ -54,16 +59,19 @@ const Cart = () => {
                     <button type='button' className='button-theme bg-theme-cart text-white'>Check Out</button>
                   </div>
                 </div>
+            
 
             </div>}
 
         </div>
+        
       </div>
     </>
   )
 }
 
 export default Cart
+
 
 /* 
 
