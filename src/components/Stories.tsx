@@ -9,9 +9,13 @@ const Stories: React.FC<IStory> = ({ title, news }) => {
     
     return (
         <>
+            
             <div className="nike-container mb-11">
+                
                 <Title title={title} />
+                
                 <div className="mt-7">
+                    
                     <Splide options={{
                         perPage: 4, perMove: 1, type: 'loop', rewind: true, keyboard: 'global', gap: '1rem', pagination: false, padding: '2rem', breakpoints: {
                             1200: { perPage: 3 },
@@ -53,11 +57,17 @@ const Stories: React.FC<IStory> = ({ title, news }) => {
                                         <a href={val.url} target="_blank" role={"button"} className="w-full bg-gradient-to-b from-slate-900 to-black shadow-md shadow-black text-center text-slate-100 py-1.5 button-theme">{val.btn}</a>
                                     </div>
                                 </div>
+                                
                             </SplideSlide>
+            
                         ))}
+                        
                     </Splide>
+                    
                 </div>
+                
             </div>
+            
         </>
     )
 }
