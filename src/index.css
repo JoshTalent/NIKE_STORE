@@ -10,6 +10,7 @@
     font-family: 'Poppins', sans-serif;
   }
 
+ 
   /* container */
   .nike-container {
     @apply w-11/12 m-auto;
