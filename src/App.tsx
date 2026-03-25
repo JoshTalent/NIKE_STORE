@@ -10,6 +10,7 @@ function App() {
       <Cart />
       
       <main className="flex flex-col gap-16 relative">
+
         
         <Hero {...heroapi} />
         <Sales {...popularsales} />
