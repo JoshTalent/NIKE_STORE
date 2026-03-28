@@ -10,6 +10,7 @@ const CartItem: React.FC<ICartItems> = ({ id, title, text, img, color, shadow, p
   const onRemoveCartItem = (id:string) => {
     dispatch(setRemoveItemFormToCart(id))
   }
+
   
   const onDecreaseItem = (id:string) => {
     dispatch(setDecreaseCartItems(id))
