@@ -3,7 +3,6 @@ import { IPopularSales, ITopRatesSlaes } from '../data/data';
 import Item from './utils/Item'
 import Title from './utils/Title'
 
-
 const Sales:React.FC< ITopRatesSlaes> = ({items,ifExists,title}) => {
   return (
     <>
