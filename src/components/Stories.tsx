@@ -10,10 +10,8 @@ const Stories: React.FC<IStory> = ({ title, news }) => {
     return (
         <>
             
-            <div className="nike-container mb-11">
-                
+            <div className="nike-container mb-11"></div>
                 <Title title={title} />
-                
                 <div className="mt-7">
                     
                     <Splide options={{
