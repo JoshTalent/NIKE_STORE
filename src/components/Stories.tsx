@@ -61,9 +61,7 @@ const Stories: React.FC<IStory> = ({ title, news }) => {
                         ))}
                         
                     </Splide>
-                    
-                </div>
-                
+                </div>  
             </div>
             
         </>
