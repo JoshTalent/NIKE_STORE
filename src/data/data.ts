@@ -37,7 +37,6 @@ export interface Video {
   clip: string;
 }
 
-
 export interface Sociallink {
   icon: string;
 }
