@@ -52,7 +52,6 @@ export interface IHeroAPI {
   sociallinks: Sociallink[];
 }
 
-
 export interface Item1 {
   ifExists: boolean;
   id: string;
