@@ -1,4 +1,3 @@
-
 import heroimg from "../assets/hero.png";
 
 import hightlightimg from "../assets/hightlightimg.png";
