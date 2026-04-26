@@ -1,17 +1,21 @@
 
 import heroimg from "../assets/hero.png";
 
+
 import hightlightimg from "../assets/hightlightimg.png";
 import sneakershoe from "../assets/sneaker.png";
+
 
 import clip from "../assets/video/clip.mp4";
 import vcover1 from "../assets/video/vcover1.png";
 import vcover2 from "../assets/video/vcover2.png";
 import vcover3 from "../assets/video/vcover3.png";
 
+
 import psale1 from "../assets/nike-air-red.png";
 import psale2 from "../assets/nike-adapt-bb.png";
 import psale3 from "../assets/nike-adapt-bb-smart.png";
+
 
 import product1 from "../assets/product1.png";
 import product2 from "../assets/product2.png";
