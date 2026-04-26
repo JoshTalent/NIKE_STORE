@@ -502,4 +502,5 @@ const footerAPI = {
   ]
 };
 
+
 export { footerAPI, story, sneaker, highlight, toprateslaes, popularsales };
