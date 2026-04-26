@@ -13,6 +13,7 @@ import psale1 from "../assets/nike-air-red.png";
 import psale2 from "../assets/nike-adapt-bb.png";
 import psale3 from "../assets/nike-adapt-bb-smart.png";
 
+
 import product1 from "../assets/product1.png";
 import product2 from "../assets/product2.png";
 import product3 from "../assets/product3.png";
