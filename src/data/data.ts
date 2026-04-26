@@ -91,6 +91,7 @@ export interface IHiglight {
   url: string;
   img: string;
 }
+
 export interface ISneaker {
   ifExists: boolean;
   heading: string;
