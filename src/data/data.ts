@@ -13,7 +13,6 @@ import psale1 from "../assets/nike-air-red.png";
 import psale2 from "../assets/nike-adapt-bb.png";
 import psale3 from "../assets/nike-adapt-bb-smart.png";
 
-
 import product1 from "../assets/product1.png";
 import product2 from "../assets/product2.png";
 import product3 from "../assets/product3.png";
@@ -27,13 +26,11 @@ import product10 from "../assets/product10.png";
 import product11 from "../assets/product11.png";
 import product12 from "../assets/product12.png";
 
-
 import facebook from "../assets/facebook.svg";
 import instagram from "../assets/instagram.svg";
 import twitter from "../assets/twitter.svg";
 import youtube from "../assets/youtube.svg";
 import messenger from "../assets/messenger.svg";
-
 
 export interface Video {
   imgsrc: string;
