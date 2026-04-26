@@ -41,6 +41,7 @@ export interface Sociallink {
   icon: string;
 }
 
+
 export interface IHeroAPI {
   title: string;
   subtitle: string;
@@ -49,6 +50,7 @@ export interface IHeroAPI {
   videos: Video[];
   sociallinks: Sociallink[];
 }
+
 
 export interface Item1 {
   ifExists: boolean;
