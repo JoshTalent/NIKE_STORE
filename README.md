@@ -14,9 +14,5 @@
 
 ### `Screen` </br>
 
-![](screen.gif)  
-
-# SYSTEM BY JOSUE NTWARI 
-
 
 
