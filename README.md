@@ -1,4 +1,4 @@
-# with Tailwind  Nike Ecommerse project Typescript and Redux Toolkit
+# Tailwind  Nike Ecommerse project Typescript and Redux Toolkit
 
 ## What I Practice
 
