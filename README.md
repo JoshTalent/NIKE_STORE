@@ -6,6 +6,7 @@
  -`tailwind` için `line-clamp`
  - For add cart notifications `react-hot-toast` 
  - Lots of tailwind :)
+ - 
  
  ### `Deploy` 
 
